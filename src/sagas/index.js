@@ -4,7 +4,7 @@ import { DETECT_SKETCH, DETECT_SKETCH_ASYNC } from '../actions';
 
 const apiCall = imageURL =>
   axios
-    .post('http://localhost:5000/predict', {
+    .post('https://keras-mnist.herokuapp.com/predict', {
       imageURL: imageURL.split(',')[1],
     })
     .then(response => response.data)

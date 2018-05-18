@@ -48,13 +48,11 @@ class Home extends Component {
                     ref={(element) => {
                       this.canvas = element;
                     }}
-                    styles={{
-                      boxSizing: 'border-box',
-                      border: '2px solid red',
+                    style={{
+                      border: '2px solid gray',
                       borderRadius: 'none',
                     }}
-                    width={400}
-                    height={400}
+                    height="40%"
                     strokeColor="black"
                     strokeWidth={10}
                   />
