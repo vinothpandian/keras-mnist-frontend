@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@material-ui/icons": "^1.0.0-beta.43",
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "emotion": "^9.1.2",
     "history": "^4.7.2",
     "immutable": "^3.8.2",
